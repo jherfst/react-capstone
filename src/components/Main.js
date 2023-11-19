@@ -1,6 +1,10 @@
+import Home from "./Home";
+
 function Main() {
     return (
-    <main></main>
+    <main>
+        <Home></Home>
+    </main>
     );
   }
 

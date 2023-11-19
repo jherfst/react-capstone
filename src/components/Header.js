@@ -1,9 +1,9 @@
 
-function Header(childeren) {
+function Header(props) {
   return (
   <header>
-      <img src="{}" alt="logo"/>
-     {childeren}
+    <img src="{}" alt="logo"/>
+    {props.children}
   </header>
   );
 }
