@@ -1,6 +1,7 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { useNavigate } from 'react-router-dom';
 export default function BookingForm(props) {
+  const navigate = useNavigate();
   const [data, setData] = useState({
     fName: "",
     lName: "",
@@ -25,8 +26,14 @@ export default function BookingForm(props) {
     props.updateTimes(date);
   }
 
+  function submit(e) {
+    e.preventDefault()
+    console.log(data)
+    navigate('/confirmation');
+  }
+
   return (
-    <form className="bookingForm">
+    <form onSubmit={submit} className="bookingForm">
         Please reserve a table for 
         <input
           type="text"
@@ -132,9 +139,9 @@ export default function BookingForm(props) {
             Note: You cannot edit your reservation after submission. Pleasedouble-check your answer before submitting your reservation request.
         </p>
         <br/>
-        <Link className="action-button" to="/confirmation">
+        <button className="action-button">
           Book Table
-        </Link>
+        </button>
     </form>
   );
 }
