@@ -1,9 +1,9 @@
+import Nav from "./Nav";
 
-function Header(props) {
+function Header() {
   return (
   <header>
-    <img src="{}" alt="logo"/>
-    {props.children}
+    <Nav></Nav>
   </header>
   );
 }
