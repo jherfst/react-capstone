@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+# Little lemon Capstone Project - Meta Front-End Developer Professional Certificate
+
+![image](https://github.com/jherfst/react-capstone/assets/8531701/415c3bd0-2d6e-4268-bc0e-7cc0717473c8)
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
