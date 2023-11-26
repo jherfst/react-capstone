@@ -1,4 +1,5 @@
 import BookingPage from "./pages/booking/BookingPage";
+import ConfirmedBooking from "./pages/booking/Confirmation";
 import HomePage from "./pages/home/HomePage";
 import { Route, Routes } from "react-router-dom";
 
@@ -7,8 +8,8 @@ function Main() {
     <main>
          <Routes>
             <Route path="/" element={<HomePage />} />
-            <Route path="/booking" element={<BookingPage />} />
-            {/* <Route path="/confirmed" element={<ConfirmedBooking/> } /> */}
+            <Route path="/reservations" element={<BookingPage />} />
+            { <Route path="/confirmation" element={<ConfirmedBooking/> } /> }
         </Routes>
     </main>
     );

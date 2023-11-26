@@ -11,7 +11,7 @@ function CallToAction(props) {
                   <p>Et consectetur aliquip qui aute duis. Laboris est fugiat laboris cillum ad fugiat minim dolor nisi nisi.
                   Commodo ipsum pariatur qui ipsum ex velit excepteur sit quis dolor consectetur et minim.</p>
                   <br/>
-                  <Link className="action-button" to="/reservations">Reserve a table</Link>
+                  <Link role="button" className="action-button" to="/reservations">Reserve a table</Link>
               </section>
               <section className="callToActionImage">
                   <img src={callToActionImage} alt="title-section-mage"/>

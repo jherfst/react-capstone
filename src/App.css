@@ -259,3 +259,48 @@ footer menu li {
   height: 200px;
 }
 /* FOOTER Component */
+
+/* Booking Component */
+.bookingTitle h1 {
+  font-size: 3rem;
+  color: #F4CE14;
+  font-weight: lighter;
+}
+.bookingForm {
+  display: inline;
+  width: 800px;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+.bookingForm h2 {
+  font-size: 1.5rem;
+  color: #F4CE14;
+}
+.bookingForm input,
+.bookingForm textarea,
+.bookingForm select
+ {
+  font-size: 1.1rem;
+  margin-left: 0.5rem;
+  border-radius: 10px;
+  color: #495E57;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  padding-left: 0.2rem;
+}
+
+.bookingForm h2~label {
+  font-size: 1.5rem;
+}
+
+.bookingForm p {
+  font-size: 1.0rem;
+  color: #F4CE14;
+}
+
+.confirmationImage {
+ height: 12vh;
+}
+
+/* Booking Component */
+
