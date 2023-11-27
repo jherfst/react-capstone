@@ -46,6 +46,8 @@ Nav li:hover {
     "logo   menu";
   }
 }
+
+
 /* Nav Component */
 
 /* Main Component */
@@ -304,3 +306,54 @@ footer menu li {
 
 /* Booking Component */
 
+@media only screen and (max-width: 600px)  {
+  .menu {
+    display: none;
+  }
+  Main>article:nth-child(1) {
+    display: block;
+    place-items: center;
+  }
+  Main>article:nth-child(2) {
+    display: block;
+    padding-left: 1rem;
+  }
+  Main>article:nth-child(3) {
+    display: block;
+    padding-left: 1rem;
+  }
+  Main>article:nth-child(4) {
+    display: block;
+    padding-left: 1rem;
+  }
+  .callToAction {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: auto;
+    padding: 1.5rem;
+  }
+  .callToActionText{
+    max-width: 500px;
+  }
+  .callToActionImage img{
+    margin-left: 0;
+  }
+  .specials-list {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+  }
+  .specials {
+    margin: 0;
+    width: 500px;
+  }
+  .customersSay {
+    max-width: 500px;
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .locationImgs, footer {
+    display: none;
+  }
+}
